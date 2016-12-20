@@ -5,7 +5,7 @@ var Link = ReactRouter.Link
 var Home = React.createClass({
   render: function() {
     return(
-      <div className="jumbotron col-sm-12 text-center">
+      <div className="jumbotron col-sm-6 col-sm-offset-3 text-center">
       <h1>Github Battle</h1>
       <p className='lead'>What even is a jQuery?</p>
       <Link to='/playerOne'>
